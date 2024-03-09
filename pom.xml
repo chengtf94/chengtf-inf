@@ -11,6 +11,8 @@
 
     <modules>
         <module>chengtf-inf-util</module>
+        <module>chengtf-inf-ext-cola</module>
+        <module>chengtf-inf-ext-pangolin</module>
     </modules>
 
     <properties>
