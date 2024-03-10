@@ -1,13 +1,11 @@
 package com.example.ctf.inf.ext.pangolin.spring;
 
-import com.alibaba.fastjson.JSON;
 import com.example.ctf.inf.ext.pangolin.annotation.AbilityCode;
 import com.example.ctf.inf.ext.pangolin.annotation.BusinessCode;
 import com.example.ctf.inf.ext.pangolin.annotation.ModuleCode;
 import com.example.ctf.inf.ext.pangolin.annotation.ProductCode;
 import com.google.common.base.Splitter;
 import com.google.common.collect.Lists;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.AnnotatedBeanDefinition;
@@ -31,7 +29,7 @@ import java.util.stream.Collectors;
  * @author: chengtf
  * @date: 2023/10/29
  */
-@Slf4j
+//@Slf4j
 @Component
 public class ModuleBeanFactoryPostProcessor implements BeanFactoryPostProcessor, ApplicationContextAware {
 
@@ -78,7 +76,7 @@ public class ModuleBeanFactoryPostProcessor implements BeanFactoryPostProcessor,
         moduleScanner.setBeanNameGenerator(((definition, registry) -> definition.getBeanClassName()));
         String[] basePackages = getBasePackages();
         moduleScanner.scan(basePackages);
-        log.info("添加扫描路径：{}", JSON.toJSONString(basePackages));
+//        log.info("添加扫描路径：{}", JSON.toJSONString(basePackages));
     }
 
     /**

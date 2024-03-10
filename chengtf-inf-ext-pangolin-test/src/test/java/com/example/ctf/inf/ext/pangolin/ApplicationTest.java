@@ -13,9 +13,8 @@ import javax.annotation.Resource;
  * @author: chengtf
  * @date: 2024/3/11 0:18
  */
-@SpringBootTest
+@SpringBootTest(classes = {Application.class})
 public class ApplicationTest {
-
 
     @Resource
     private ConfigDomainService configDomainService;
