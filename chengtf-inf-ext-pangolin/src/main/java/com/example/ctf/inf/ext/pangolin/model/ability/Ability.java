@@ -1,6 +1,6 @@
 package com.example.ctf.inf.ext.pangolin.model.ability;
 
-import org.example.inf.ext.sprite.module.ModulePriority;
+import com.example.ctf.inf.ext.pangolin.model.ModulePriority;
 
 /**
  * 能力接口
