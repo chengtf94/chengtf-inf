@@ -22,7 +22,7 @@
         <!-- chengtf-inf-ext-pangolin -->
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>chengtf-inf-ext-pangolin</artifactId>
+            <artifactId>pangolin-module-spring-boot-starter</artifactId>
         </dependency>
         <!-- spring boot -->
         <dependency>
