@@ -1,12 +1,11 @@
 package pangolin.shop;
 
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import pangolin.shop.domain.config.service.ConfigDomainService;
 import pangolin.shop.domain.config.service.param.ConfigReq;
 import pangolin.shop.domain.config.service.param.ConfigResp;
-import org.junit.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-import javax.annotation.Resource;
 
 /**
  * @description: TODO
@@ -16,7 +15,7 @@ import javax.annotation.Resource;
 @SpringBootTest(classes = {Application.class})
 public class ApplicationTest {
 
-    @Resource
+    @Autowired
     private ConfigDomainService configDomainService;
 
     @Test
