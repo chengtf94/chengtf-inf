@@ -1,5 +1,6 @@
 package com.example.ctf.inf.ext.pangolin.spring;
 
+import com.alibaba.fastjson.JSON;
 import com.example.ctf.inf.ext.pangolin.annotation.AbilityCode;
 import com.example.ctf.inf.ext.pangolin.annotation.BusinessCode;
 import com.example.ctf.inf.ext.pangolin.annotation.ModuleCode;
@@ -77,6 +78,7 @@ public class ModuleBeanFactoryPostProcessor implements BeanFactoryPostProcessor,
         String[] basePackages = getBasePackages();
         moduleScanner.scan(basePackages);
 //        log.info("添加扫描路径：{}", JSON.toJSONString(basePackages));
+        System.out.println("添加扫描路径：" + JSON.toJSONString(basePackages));
     }
 
     /**
