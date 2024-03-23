@@ -13,7 +13,6 @@
         <module>chengtf-inf-util</module>
         <module>chengtf-inf-ext-cola</module>
         <module>chengtf-inf-ext-pangolin</module>
-        <module>chengtf-inf-test</module>
         <module>chengtf-inf-ext-pangolin-test</module>
         <module>chengtf-inf-toolkit</module>
     </modules>
