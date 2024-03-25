@@ -1,7 +1,10 @@
 package com.example.ctf.inf.ext.qw.plugin;
 
 import com.google.common.base.Preconditions;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Objects;
 
@@ -11,6 +14,9 @@ import java.util.Objects;
  * @date: 2024/3/25 21:47
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class PluginIdentifier {
 
     /**
