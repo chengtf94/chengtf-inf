@@ -15,6 +15,7 @@
         <module>chengtf-inf-ext-pangolin</module>
         <module>chengtf-inf-ext-pangolin-test</module>
         <module>chengtf-inf-toolkit</module>
+        <module>chengtf-inf-ext-qw</module>
     </modules>
 
     <properties>
