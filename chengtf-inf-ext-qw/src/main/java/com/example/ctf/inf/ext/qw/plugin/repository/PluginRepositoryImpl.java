@@ -4,6 +4,7 @@ import com.example.ctf.inf.ext.qw.plugin.IPlugin;
 import com.example.ctf.inf.ext.qw.plugin.PluginIdentifier;
 import com.google.common.base.Preconditions;
 import org.apache.commons.collections4.MapUtils;
+import org.springframework.stereotype.Component;
 
 import java.util.Map;
 import java.util.Objects;
@@ -14,6 +15,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author: chengtf
  * @date: 2024/3/25 22:23
  */
+@Component
 public class PluginRepositoryImpl implements IPluginRepository {
 
     /**
