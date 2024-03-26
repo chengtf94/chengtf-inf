@@ -5,5 +5,5 @@ package com.example.ctf.inf.ext.qw.plugin;
  * @author: chengtf
  * @date: 2024/3/25 22:13
  */
-public class IPlugin {
+public interface IPlugin {
 }

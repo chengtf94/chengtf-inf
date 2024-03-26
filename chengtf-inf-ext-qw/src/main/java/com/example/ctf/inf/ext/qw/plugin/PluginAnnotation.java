@@ -1,19 +1,19 @@
 package com.example.ctf.inf.ext.qw.plugin;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
 
 /**
  * @description: TODO
  * @author: chengtf
  * @date: 2024/3/25 23:31
  */
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 public @interface PluginAnnotation {
 
-    Integer tenantId();
+    int tenantId() default 0;
 
-    Integer bizTypeId();
-
+    int bizTypeId() default 0;
 
 }

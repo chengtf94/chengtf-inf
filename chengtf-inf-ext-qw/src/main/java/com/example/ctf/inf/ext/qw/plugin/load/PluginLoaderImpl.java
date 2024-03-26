@@ -1,6 +1,6 @@
 package com.example.ctf.inf.ext.qw.plugin.load;
 
-import com.example.ctf.inf.ext.qw.plugin.ApplicationContextUtil;
+import com.example.ctf.inf.ext.qw.plugin.util.ApplicationContextUtil;
 import com.example.ctf.inf.ext.qw.plugin.IPlugin;
 import com.example.ctf.inf.ext.qw.plugin.PluginAnnotation;
 import com.example.ctf.inf.ext.qw.plugin.PluginIdentifier;
