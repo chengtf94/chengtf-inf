@@ -1,7 +1,4 @@
-package com.example.ctf.inf.ext.qw.plugin.load;
-
-import com.example.ctf.inf.ext.qw.plugin.IPlugin;
-import com.example.ctf.inf.ext.qw.plugin.PluginIdentifier;
+package com.example.ctf.inf.ext.qw.plugin;
 
 /**
  * @description: 扩展点加载器接口

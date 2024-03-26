@@ -1,9 +1,6 @@
-package com.example.ctf.inf.ext.qw.plugin.load;
+package com.example.ctf.inf.ext.qw.plugin;
 
 import com.example.ctf.inf.ext.qw.plugin.util.ApplicationContextUtil;
-import com.example.ctf.inf.ext.qw.plugin.IPlugin;
-import com.example.ctf.inf.ext.qw.plugin.PluginAnnotation;
-import com.example.ctf.inf.ext.qw.plugin.PluginIdentifier;
 import com.example.ctf.inf.ext.qw.plugin.register.IPluginRegister;
 import com.example.ctf.inf.ext.qw.plugin.repository.IPluginRepository;
 import com.google.common.base.Preconditions;
